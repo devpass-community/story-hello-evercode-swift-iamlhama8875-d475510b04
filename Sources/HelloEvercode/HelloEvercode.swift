@@ -6,6 +6,6 @@ public struct HelloEvercode {
     }
 
     func hello(name: String) -> String {
-        return name
+        return "Hello \(name)!"
     }
 }
